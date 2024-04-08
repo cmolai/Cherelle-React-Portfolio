@@ -1,8 +1,31 @@
 import React from "react";
 
-export default function App() {
-  return "App";
+
+  export default function About() {
+    export default function Contact() {
+      export default function Navbar() {
+        export default function Projects() {
+          export default function Skills() {
+            export default function Testimonials() {
+              export default function App() {
+                return (
+                  <main>
+                    <Navbar />
+                    <About />
+                    <Projects />
+                    <Skills />
+                    <Testimonials />
+                    <Contact />
+                  </main>
+                );
+              }
+            }
+          }
+        }
+      }
+    }
 }
+
 // src/App.js
 
 import React from "react";
